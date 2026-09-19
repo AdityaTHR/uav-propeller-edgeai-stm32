@@ -1,4 +1,6 @@
-# UAV Propeller Edge-AI Fault Diagnosis on STM32F446RE
+https://uav-propeller-edgeai-stm32-z9ygz87hdghoyjc74avzgz.streamlit.app/
+
+# UAV Propeller Edge-AI Fault Diagnosis on STM32F446RE 
 
 A vibration-based five-class UAV propeller fault diagnosis system that combines a Python ML reference pipeline, embedded C inference, STM32F446RE deployment, Renode firmware validation, and an interactive Streamlit dashboard.
 
