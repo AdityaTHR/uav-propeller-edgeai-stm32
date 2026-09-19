@@ -1,0 +1,26 @@
+{
+  "selected_features": [
+    "z_spec_centroid",
+    "z_mean",
+    "y_mean",
+    "y_rms",
+    "y_spec_centroid",
+    "z_rms",
+    "z_std",
+    "y_std",
+    "y_skew",
+    "y_ptp"
+  ],
+  "n_estimators": 75,
+  "max_depth": 2,
+  "learning_rate": 0.1,
+  "cv_macro_f1_mean": 0.9553562288629246,
+  "cv_macro_f1_std": 0.017538912427789332,
+  "trees": 375,
+  "nodes": 2419,
+  "leaves": 1397,
+  "actual_max_depth": 2,
+  "holdout_macro_f1": 0.9137514119720038,
+  "holdout_accuracy": 0.9147869674185464,
+  "model_path": "/home/aditya/HACKATHONS/uav_propeller_edgeai_stm32/models/xgboost_compact_candidate.joblib"
+}

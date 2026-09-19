@@ -1,0 +1,81 @@
+{
+  "cv": {
+    "cv_macro_f1_mean": 0.9550943421920988,
+    "cv_macro_f1_std": 0.018551269238381258,
+    "cv_accuracy_mean": 0.9552706508135169,
+    "cv_macro_f1_folds": [
+      0.9540225264770645,
+      0.9626090561641953,
+      0.9300317210817362,
+      0.9737140650453993
+    ]
+  },
+  "holdout": {
+    "macro_f1": 0.9098909740475772,
+    "accuracy": 0.9110275689223057,
+    "min_class_recall": 0.6918238993710691,
+    "per_class_recall": {
+      "0": 0.6918238993710691,
+      "1": 1.0,
+      "2": 0.98125,
+      "3": 0.95,
+      "4": 0.93125
+    },
+    "confusion_matrix": [
+      [
+        110,
+        0,
+        3,
+        1,
+        45
+      ],
+      [
+        0,
+        159,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        157,
+        0,
+        0
+      ],
+      [
+        8,
+        0,
+        0,
+        152,
+        0
+      ],
+      [
+        9,
+        0,
+        2,
+        0,
+        149
+      ]
+    ]
+  },
+  "features": [
+    "y_mean",
+    "y_std",
+    "y_rms",
+    "y_ptp",
+    "y_crest",
+    "y_skew",
+    "y_kurtosis",
+    "y_spec_centroid",
+    "z_mean",
+    "z_std",
+    "z_rms",
+    "z_ptp",
+    "z_crest",
+    "z_skew",
+    "z_kurtosis",
+    "z_spec_centroid"
+  ],
+  "model_path": "/home/aditya/HACKATHONS/uav_propeller_edgeai_stm32/models/xgboost_yz_fft512_reference.joblib"
+}

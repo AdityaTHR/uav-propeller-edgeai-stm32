@@ -1,0 +1,152 @@
+{
+  "AdaBoost_XY": {
+    "axes": "XY",
+    "tier": "time_plus_centroid",
+    "features": [
+      "x_mean",
+      "x_std",
+      "x_rms",
+      "x_ptp",
+      "x_crest",
+      "x_skew",
+      "x_kurtosis",
+      "x_spec_centroid",
+      "y_mean",
+      "y_std",
+      "y_rms",
+      "y_ptp",
+      "y_crest",
+      "y_skew",
+      "y_kurtosis",
+      "y_spec_centroid"
+    ],
+    "uses_fft": true,
+    "cv_macro_f1_mean": 0.9209197766365003,
+    "cv_macro_f1_std": 0.007035843135840817,
+    "holdout": {
+      "macro_f1": 0.9241314136981117,
+      "accuracy": 0.9235588972431078,
+      "min_class_recall": 0.8176100628930818,
+      "per_class_recall": {
+        "0": 0.8176100628930818,
+        "1": 1.0,
+        "2": 0.95,
+        "3": 0.9375,
+        "4": 0.9125
+      },
+      "confusion_matrix": [
+        [
+          130,
+          0,
+          1,
+          1,
+          27
+        ],
+        [
+          0,
+          159,
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          0,
+          152,
+          0,
+          1
+        ],
+        [
+          6,
+          0,
+          4,
+          150,
+          0
+        ],
+        [
+          14,
+          0,
+          0,
+          0,
+          146
+        ]
+      ]
+    },
+    "model_path": "/home/aditya/HACKATHONS/uav_propeller_edgeai_stm32/models/adaboost_xy_embedded_feature_candidate.joblib"
+  },
+  "XGBoost_YZ_compact": {
+    "axes": "YZ",
+    "tier": "time_plus_centroid",
+    "features": [
+      "y_mean",
+      "y_std",
+      "y_rms",
+      "y_ptp",
+      "y_crest",
+      "y_skew",
+      "y_kurtosis",
+      "y_spec_centroid",
+      "z_mean",
+      "z_std",
+      "z_rms",
+      "z_ptp",
+      "z_crest",
+      "z_skew",
+      "z_kurtosis",
+      "z_spec_centroid"
+    ],
+    "uses_fft": true,
+    "cv_macro_f1_mean": 0.9547911250325916,
+    "cv_macro_f1_std": 0.0220260612210936,
+    "holdout": {
+      "macro_f1": 0.9085564700111272,
+      "accuracy": 0.9097744360902256,
+      "min_class_recall": 0.6855345911949685,
+      "per_class_recall": {
+        "0": 0.6855345911949685,
+        "1": 1.0,
+        "2": 0.98125,
+        "3": 0.95,
+        "4": 0.93125
+      },
+      "confusion_matrix": [
+        [
+          109,
+          0,
+          3,
+          1,
+          46
+        ],
+        [
+          0,
+          159,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          157,
+          0,
+          0
+        ],
+        [
+          8,
+          0,
+          0,
+          152,
+          0
+        ],
+        [
+          9,
+          0,
+          2,
+          0,
+          149
+        ]
+      ]
+    },
+    "model_path": "/home/aditya/HACKATHONS/uav_propeller_edgeai_stm32/models/xgboost_yz_compact_embedded_feature_candidate.joblib"
+  }
+}

@@ -1,0 +1,6 @@
+class_name,label,sampling_hz,full_500_sample_segments
+Damaged Bottom Right Blade,1,1023.5414534523528,799
+Damaged Top Right Blade,2,1023.5414534523528,800
+Healthy,0,1023.5414534523528,796
+Unbalanced Bottom Right Blade,3,1023.5414534523528,800
+Unbalanced Top Right Blade,4,1023.5414534523528,800

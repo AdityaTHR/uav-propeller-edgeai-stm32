@@ -1,0 +1,55 @@
+{
+  "project": "UAV Propeller Edge-AI STM32",
+  "sampling_rate_hz_observed": 1023.5414534523528,
+  "window_samples": 500,
+  "window_duration_seconds_approx": 0.48849999998878957,
+  "input_signal_axes_original": [
+    "X",
+    "Y",
+    "Z"
+  ],
+  "classes": {
+    "0": "Healthy",
+    "1": "Damaged Bottom Right Blade",
+    "2": "Damaged Top Right Blade",
+    "3": "Unbalanced Bottom Right Blade",
+    "4": "Unbalanced Top Right Blade"
+  },
+  "candidate_models": {
+    "AdaBoost_reduced": {
+      "features_in_exact_order": [
+        "y_mean",
+        "y_spec_centroid",
+        "y_ptp",
+        "y_rms",
+        "y_std",
+        "x_mean",
+        "y_skew",
+        "x_skew"
+      ],
+      "numeric_type_for_embedded_target": "float32",
+      "axes": "XY",
+      "trees": 50
+    },
+    "XGBoost_compact": {
+      "features_in_exact_order": [
+        "z_spec_centroid",
+        "z_mean",
+        "y_mean",
+        "y_rms",
+        "y_spec_centroid",
+        "z_rms",
+        "z_std",
+        "y_std",
+        "y_skew",
+        "y_ptp"
+      ],
+      "numeric_type_for_embedded_target": "float32",
+      "axes": "YZ",
+      "n_estimators": 75,
+      "trees": 375,
+      "max_depth": 2
+    }
+  },
+  "integration_rule": "Embedded implementation must reproduce the Python predictions for the exported integration test vectors before STM32 simulation."
+}

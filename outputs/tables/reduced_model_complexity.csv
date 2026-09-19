@@ -1,0 +1,3 @@
+model,axes,features,trees,nodes,leaves,max_depth,host_artifact_kb,holdout_macro_f1,holdout_accuracy
+XGBoost,YZ,10,500,6240,3370,3,539.3291015625,0.9124198238253024,0.9135338345864662
+AdaBoost,XY,8,50,340,195,2,57.74609375,0.901547677573582,0.9010025062656641

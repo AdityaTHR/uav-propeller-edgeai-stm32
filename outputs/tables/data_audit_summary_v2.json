@@ -1,0 +1,128 @@
+[
+  {
+    "file": "Damaged Bottom Right Blade.xlsx",
+    "rows": 399999,
+    "columns": 4,
+    "column_names": [
+      "Time (s)",
+      "X Acceleration",
+      "Y Acceleration",
+      "Z Acceleration"
+    ],
+    "sensor_missing_total": 0,
+    "duplicate_rows": 0,
+    "column_map": {
+      "time": "Time (s)",
+      "x": "X Acceleration",
+      "y": "Y Acceleration",
+      "z": "Z Acceleration"
+    },
+    "median_dt": 0.0009769999999775791,
+    "estimated_sampling_hz": 1023.5414534523528,
+    "contiguous_segments": 800,
+    "segment_length_mode": 500,
+    "full_500_sample_segments": 799,
+    "large_gap_count": 799
+  },
+  {
+    "file": "Damaged Top Right Blade.xlsx",
+    "rows": 400000,
+    "columns": 4,
+    "column_names": [
+      "Time (s)",
+      "X Acceleration",
+      "Y Acceleration",
+      "Z Acceleration"
+    ],
+    "sensor_missing_total": 0,
+    "duplicate_rows": 0,
+    "column_map": {
+      "time": "Time (s)",
+      "x": "X Acceleration",
+      "y": "Y Acceleration",
+      "z": "Z Acceleration"
+    },
+    "median_dt": 0.0009769999999775791,
+    "estimated_sampling_hz": 1023.5414534523528,
+    "contiguous_segments": 800,
+    "segment_length_mode": 500,
+    "full_500_sample_segments": 800,
+    "large_gap_count": 799
+  },
+  {
+    "file": "Healthy.xlsx",
+    "rows": 398945,
+    "columns": 4,
+    "column_names": [
+      "Time (s)",
+      "X Acceleration",
+      "Y Acceleration",
+      "Z Acceleration"
+    ],
+    "sensor_missing_total": 0,
+    "duplicate_rows": 0,
+    "column_map": {
+      "time": "Time (s)",
+      "x": "X Acceleration",
+      "y": "Y Acceleration",
+      "z": "Z Acceleration"
+    },
+    "median_dt": 0.0009769999999775791,
+    "estimated_sampling_hz": 1023.5414534523528,
+    "contiguous_segments": 798,
+    "segment_length_mode": 500,
+    "full_500_sample_segments": 796,
+    "large_gap_count": 797
+  },
+  {
+    "file": "Unbalanced Bottom Right Blade.xlsx",
+    "rows": 400000,
+    "columns": 5,
+    "column_names": [
+      "Time",
+      "Acc in X-Axis",
+      "Acc in Y-Axis",
+      "Acc in Z-Axis",
+      "Comment"
+    ],
+    "sensor_missing_total": 0,
+    "duplicate_rows": 0,
+    "column_map": {
+      "time": "Time",
+      "x": "Acc in X-Axis",
+      "y": "Acc in Y-Axis",
+      "z": "Acc in Z-Axis"
+    },
+    "median_dt": 0.0009769999999775791,
+    "estimated_sampling_hz": 1023.5414534523528,
+    "contiguous_segments": 800,
+    "segment_length_mode": 500,
+    "full_500_sample_segments": 800,
+    "large_gap_count": 799
+  },
+  {
+    "file": "Unbalanced Top Right Blade.xlsx",
+    "rows": 400000,
+    "columns": 4,
+    "column_names": [
+      "Time",
+      "Acc in X-Axis",
+      "Acc in Y-Axis",
+      "Acc in Z-Axis"
+    ],
+    "sensor_missing_total": 0,
+    "duplicate_rows": 0,
+    "column_map": {
+      "time": "Time",
+      "x": "Acc in X-Axis",
+      "y": "Acc in Y-Axis",
+      "z": "Acc in Z-Axis"
+    },
+    "median_dt": 0.0009769999999775791,
+    "estimated_sampling_hz": 1023.5414534523528,
+    "contiguous_segments": 800,
+    "segment_length_mode": 500,
+    "full_500_sample_segments": 800,
+    "large_gap_count": 799
+  }
+]

@@ -1,0 +1,59 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large/raw datasets
+data_full/
+data/raw/
+*.7z
+*.zip
+
+# Keep public demo data if created under data/demo/
+!data/demo/
+
+# ML temporary artifacts
+checkpoints/
+runs/
+wandb/
+*.log
+
+# STM32 build artifacts
+embedded/STM32/Debug/
+embedded/STM32/Release/
+embedded/STM32/.settings/
+embedded/STM32/*.launch
+embedded/STM32/*.elf
+embedded/STM32/*.bin
+embedded/STM32/*.hex
+embedded/STM32/*.map
+embedded/STM32/*.list
+embedded/STM32/**/*.o
+embedded/STM32/**/*.d
+embedded/STM32/**/*.su
+embedded/STM32/**/*.cyclo
+
+# Local Streamlit secrets
+.streamlit/secrets.toml
+
+# Windows downloaded-file metadata
+*:Zone.Identifier
+
+# Full CMSIS source tree is not needed;
+# STM32 build uses selected sources under Src/CMSIS_DSP
+embedded/STM32/Drivers/CMSIS_DSP/Source/
+
+# Compiled host parity executables
+embedded/generated/host_parity_full
+embedded/generated/host_parity_test
+embedded/generated/host_raw_feature_parity

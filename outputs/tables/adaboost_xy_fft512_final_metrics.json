@@ -1,0 +1,131 @@
+{
+  "model": "AdaBoost_XY_FFT512",
+  "window_samples": 500,
+  "fft_len": 512,
+  "feature_order": [
+    "x_mean",
+    "x_std",
+    "x_rms",
+    "x_ptp",
+    "x_crest",
+    "x_skew",
+    "x_kurtosis",
+    "x_spec_centroid",
+    "y_mean",
+    "y_std",
+    "y_rms",
+    "y_ptp",
+    "y_crest",
+    "y_skew",
+    "y_kurtosis",
+    "y_spec_centroid"
+  ],
+  "axes": "XY",
+  "n_estimators": 50,
+  "cv": {
+    "cv_macro_f1_mean": 0.9168742009512162,
+    "cv_macro_f1_std": 0.009981676029960815,
+    "cv_accuracy_mean": 0.9161698216520651,
+    "cv_macro_f1_folds": [
+      0.9210340054971924,
+      0.9111756407269711,
+      0.9065093944445509,
+      0.9287777631361506
+    ]
+  },
+  "holdout": {
+    "macro_f1": 0.9080891913550797,
+    "accuracy": 0.9085213032581454,
+    "min_class_recall": 0.7169811320754716,
+    "per_class_recall": {
+      "0": 0.7169811320754716,
+      "1": 1.0,
+      "2": 0.96875,
+      "3": 0.9375,
+      "4": 0.91875
+    },
+    "confusion_matrix": [
+      [
+        114,
+        0,
+        2,
+        1,
+        42
+      ],
+      [
+        0,
+        159,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        0,
+        155,
+        0,
+        0
+      ],
+      [
+        6,
+        0,
+        4,
+        150,
+        0
+      ],
+      [
+        13,
+        0,
+        0,
+        0,
+        147
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.8260869565217391,
+        "recall": 0.7169811320754716,
+        "f1-score": 0.7676767676767676,
+        "support": 159.0
+      },
+      "1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 159.0
+      },
+      "2": {
+        "precision": 0.9627329192546584,
+        "recall": 0.96875,
+        "f1-score": 0.9657320872274143,
+        "support": 160.0
+      },
+      "3": {
+        "precision": 0.9933774834437086,
+        "recall": 0.9375,
+        "f1-score": 0.9646302250803859,
+        "support": 160.0
+      },
+      "4": {
+        "precision": 0.7777777777777778,
+        "recall": 0.91875,
+        "f1-score": 0.8424068767908309,
+        "support": 160.0
+      },
+      "accuracy": 0.9085213032581454,
+      "macro avg": {
+        "precision": 0.9119950273995767,
+        "recall": 0.9083962264150942,
+        "f1-score": 0.9080891913550797,
+        "support": 798.0
+      },
+      "weighted avg": {
+        "precision": 0.9119923997031826,
+        "recall": 0.9085213032581454,
+        "f1-score": 0.908149970321287,
+        "support": 798.0
+      }
+    }
+  },
+  "model_path": "/home/aditya/HACKATHONS/uav_propeller_edgeai_stm32/models/adaboost_xy_fft512_final.joblib"
+}

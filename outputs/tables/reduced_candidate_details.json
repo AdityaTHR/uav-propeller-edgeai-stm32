@@ -1,0 +1,206 @@
+{
+  "XGBoost": {
+    "axes": "YZ",
+    "chosen_k": 10,
+    "selected_features": [
+      "z_spec_centroid",
+      "z_mean",
+      "y_mean",
+      "y_rms",
+      "y_spec_centroid",
+      "z_rms",
+      "z_std",
+      "y_std",
+      "y_skew",
+      "y_ptp"
+    ],
+    "holdout_metrics": {
+      "holdout_macro_f1": 0.9124198238253024,
+      "holdout_accuracy": 0.9135338345864662,
+      "confusion_matrix": [
+        [
+          111,
+          0,
+          3,
+          1,
+          44
+        ],
+        [
+          0,
+          159,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          156,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          0,
+          154,
+          0
+        ],
+        [
+          9,
+          0,
+          2,
+          0,
+          149
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8538461538461538,
+          "recall": 0.6981132075471698,
+          "f1-score": 0.7681660899653979,
+          "support": 159.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 159.0
+        },
+        "2": {
+          "precision": 0.968944099378882,
+          "recall": 0.975,
+          "f1-score": 0.9719626168224299,
+          "support": 160.0
+        },
+        "3": {
+          "precision": 0.9935483870967742,
+          "recall": 0.9625,
+          "f1-score": 0.9777777777777777,
+          "support": 160.0
+        },
+        "4": {
+          "precision": 0.772020725388601,
+          "recall": 0.93125,
+          "f1-score": 0.8441926345609065,
+          "support": 160.0
+        },
+        "accuracy": 0.9135338345864662,
+        "macro avg": {
+          "precision": 0.9176718731420822,
+          "recall": 0.9133726415094341,
+          "f1-score": 0.9124198238253024,
+          "support": 798.0
+        },
+        "weighted avg": {
+          "precision": 0.9176486871676938,
+          "recall": 0.9135338345864662,
+          "f1-score": 0.9124908433211484,
+          "support": 798.0
+        }
+      }
+    },
+    "model_path": "/home/aditya/HACKATHONS/uav_propeller_edgeai_stm32/models/xgboost_yz_10features.joblib"
+  },
+  "AdaBoost": {
+    "axes": "XY",
+    "chosen_k": 8,
+    "selected_features": [
+      "y_mean",
+      "y_spec_centroid",
+      "y_ptp",
+      "y_rms",
+      "y_std",
+      "x_mean",
+      "y_skew",
+      "x_skew"
+    ],
+    "holdout_metrics": {
+      "holdout_macro_f1": 0.901547677573582,
+      "holdout_accuracy": 0.9010025062656641,
+      "confusion_matrix": [
+        [
+          130,
+          0,
+          5,
+          1,
+          23
+        ],
+        [
+          0,
+          159,
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          0,
+          153,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          15,
+          142,
+          0
+        ],
+        [
+          25,
+          0,
+          0,
+          0,
+          135
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.7878787878787878,
+          "recall": 0.8176100628930818,
+          "f1-score": 0.8024691358024691,
+          "support": 159.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 159.0
+        },
+        "2": {
+          "precision": 0.884393063583815,
+          "recall": 0.95625,
+          "f1-score": 0.918918918918919,
+          "support": 160.0
+        },
+        "3": {
+          "precision": 0.993006993006993,
+          "recall": 0.8875,
+          "f1-score": 0.9372937293729373,
+          "support": 160.0
+        },
+        "4": {
+          "precision": 0.8544303797468354,
+          "recall": 0.84375,
+          "f1-score": 0.8490566037735849,
+          "support": 160.0
+        },
+        "accuracy": 0.9010025062656641,
+        "macro avg": {
+          "precision": 0.9039418448432862,
+          "recall": 0.9010220125786164,
+          "f1-score": 0.901547677573582,
+          "support": 798.0
+        },
+        "weighted avg": {
+          "precision": 0.9039669136425441,
+          "recall": 0.9010025062656641,
+          "f1-score": 0.9015484623096032,
+          "support": 798.0
+        }
+      }
+    },
+    "model_path": "/home/aditya/HACKATHONS/uav_propeller_edgeai_stm32/models/adaboost_xy_8features.joblib"
+  }
+}

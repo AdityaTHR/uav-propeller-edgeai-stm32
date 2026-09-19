@@ -1,0 +1,29 @@
+{
+  "model": "AdaBoost_XY_FFT512",
+  "feature_order": [
+    "x_mean",
+    "x_std",
+    "x_rms",
+    "x_ptp",
+    "x_crest",
+    "x_skew",
+    "x_kurtosis",
+    "x_spec_centroid",
+    "y_mean",
+    "y_std",
+    "y_rms",
+    "y_ptp",
+    "y_crest",
+    "y_skew",
+    "y_kurtosis",
+    "y_spec_centroid"
+  ],
+  "classes": {
+    "0": "Healthy",
+    "1": "Damaged Bottom Right Blade",
+    "2": "Damaged Top Right Blade",
+    "3": "Unbalanced Bottom Right Blade",
+    "4": "Unbalanced Top Right Blade"
+  },
+  "rule": "All exported C parity vectors must match Python before CubeIDE integration."
+}

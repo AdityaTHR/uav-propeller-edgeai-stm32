@@ -1,0 +1,244 @@
+[
+  {
+    "file": "Damaged Bottom Right Blade.xlsx",
+    "rows": 399999,
+    "columns": 4,
+    "column_names": [
+      "Time (s)",
+      "X Acceleration",
+      "Y Acceleration",
+      "Z Acceleration"
+    ],
+    "missing_total": 0,
+    "duplicate_rows": 0,
+    "guessed_columns": {
+      "time": "Time (s)",
+      "x": "X Acceleration",
+      "y": "Y Acceleration",
+      "z": "Z Acceleration"
+    },
+    "median_dt": 0.0009769999999775791,
+    "estimated_sampling_hz": 1023.5414534523528,
+    "numeric_summary": {
+      "Time (s)": {
+        "min": 0.000977,
+        "max": 421.516168,
+        "mean": 210.69286838058096,
+        "std": 121.66471086522198
+      },
+      "X Acceleration": {
+        "min": -1.188018,
+        "max": 1.089154,
+        "mean": 0.02786993714484286,
+        "std": 0.3425789628289983
+      },
+      "Y Acceleration": {
+        "min": -1.939808,
+        "max": 1.594895,
+        "mean": 0.0536439361248403,
+        "std": 0.281586523553855
+      },
+      "Z Acceleration": {
+        "min": -1.537318,
+        "max": 0.927282,
+        "mean": 0.0027944320685801723,
+        "std": 0.2200182055480134
+      }
+    }
+  },
+  {
+    "file": "Damaged Top Right Blade.xlsx",
+    "rows": 400000,
+    "columns": 4,
+    "column_names": [
+      "Time (s)",
+      "X Acceleration",
+      "Y Acceleration",
+      "Z Acceleration"
+    ],
+    "missing_total": 0,
+    "duplicate_rows": 0,
+    "guessed_columns": {
+      "time": "Time (s)",
+      "x": "X Acceleration",
+      "y": "Y Acceleration",
+      "z": "Z Acceleration"
+    },
+    "median_dt": 0.0009769999999775791,
+    "estimated_sampling_hz": 1023.5414534523528,
+    "numeric_summary": {
+      "Time (s)": {
+        "min": 0.0,
+        "max": 420.862393,
+        "mean": 210.321993263365,
+        "std": 121.46352055185679
+      },
+      "X Acceleration": {
+        "min": -1.442925,
+        "max": 1.259092,
+        "mean": 0.035136341585,
+        "std": 0.31358508205081975
+      },
+      "Y Acceleration": {
+        "min": -1.565486,
+        "max": 1.518882,
+        "mean": -0.0208737474275,
+        "std": 0.24882369605111893
+      },
+      "Z Acceleration": {
+        "min": -1.182374,
+        "max": 0.925285,
+        "mean": 0.0182902363375,
+        "std": 0.2417016161757942
+      }
+    }
+  },
+  {
+    "file": "Healthy.xlsx",
+    "rows": 398945,
+    "columns": 4,
+    "column_names": [
+      "Time (s)",
+      "X Acceleration",
+      "Y Acceleration",
+      "Z Acceleration"
+    ],
+    "missing_total": 0,
+    "duplicate_rows": 0,
+    "guessed_columns": {
+      "time": "Time (s)",
+      "x": "X Acceleration",
+      "y": "Y Acceleration",
+      "z": "Z Acceleration"
+    },
+    "median_dt": 0.0009769999999775791,
+    "estimated_sampling_hz": 1023.5414534523528,
+    "numeric_summary": {
+      "Time (s)": {
+        "min": 0.000977,
+        "max": 423.43925,
+        "mean": 211.74373702408352,
+        "std": 122.22508025838695
+      },
+      "X Acceleration": {
+        "min": -1.050067,
+        "max": 1.006185,
+        "mean": 0.03724786521951647,
+        "std": 0.3267373491212598
+      },
+      "Y Acceleration": {
+        "min": -0.691257,
+        "max": 0.702232,
+        "mean": -0.014232161295416662,
+        "std": 0.1986443051864027
+      },
+      "Z Acceleration": {
+        "min": -0.800437,
+        "max": 0.737814,
+        "mean": 0.012823057657070524,
+        "std": 0.19375627022511926
+      }
+    }
+  },
+  {
+    "file": "Unbalanced Bottom Right Blade.xlsx",
+    "rows": 400000,
+    "columns": 5,
+    "column_names": [
+      "Time",
+      "Acc in X-Axis",
+      "Acc in Y-Axis",
+      "Acc in Z-Axis",
+      "Comment"
+    ],
+    "missing_total": 400000,
+    "duplicate_rows": 0,
+    "guessed_columns": {
+      "time": "Time",
+      "x": null,
+      "y": null,
+      "z": null
+    },
+    "median_dt": 0.0009769999999775791,
+    "estimated_sampling_hz": 1023.5414534523528,
+    "numeric_summary": {
+      "Time": {
+        "min": 0.0,
+        "max": 420.820717,
+        "mean": 210.4093421421175,
+        "std": 121.50211983631864
+      },
+      "Acc in X-Axis": {
+        "min": -0.975595,
+        "max": 1.063663,
+        "mean": 0.0429815379475,
+        "std": 0.31687505212076295
+      },
+      "Acc in Y-Axis": {
+        "min": -0.781232,
+        "max": 0.799188,
+        "mean": -0.0117662884975,
+        "std": 0.23175456667786717
+      },
+      "Acc in Z-Axis": {
+        "min": -0.814936,
+        "max": 0.75731,
+        "mean": 0.012224350407500001,
+        "std": 0.20199389190796763
+      },
+      "Comment": {
+        "min": null,
+        "max": null,
+        "mean": null,
+        "std": null
+      }
+    }
+  },
+  {
+    "file": "Unbalanced Top Right Blade.xlsx",
+    "rows": 400000,
+    "columns": 4,
+    "column_names": [
+      "Time",
+      "Acc in X-Axis",
+      "Acc in Y-Axis",
+      "Acc in Z-Axis"
+    ],
+    "missing_total": 0,
+    "duplicate_rows": 0,
+    "guessed_columns": {
+      "time": "Time",
+      "x": null,
+      "y": null,
+      "z": null
+    },
+    "median_dt": 0.0009769999999775791,
+    "estimated_sampling_hz": 1023.5414534523528,
+    "numeric_summary": {
+      "Time": {
+        "min": 0.0,
+        "max": 421.69233,
+        "mean": 211.2037104138325,
+        "std": 121.62072383214407
+      },
+      "Acc in X-Axis": {
+        "min": -1.04557,
+        "max": 1.104148,
+        "mean": 0.0362862940825,
+        "std": 0.3253758308585006
+      },
+      "Acc in Y-Axis": {
+        "min": -0.62932,
+        "max": 0.6792,
+        "mean": -0.01611457328,
+        "std": 0.19306593861999916
+      },
+      "Acc in Z-Axis": {
+        "min": -0.617966,
+        "max": 0.665326,
+        "mean": 0.0124493843125,
+        "std": 0.1633774628988153
+      }
+    }
+  }
+]
